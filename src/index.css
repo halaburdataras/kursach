@@ -5,7 +5,9 @@
 
 body {
   background: #000;
+  color: rgb(228, 228, 228);
   margin: 0;
+  background-image: url(./assets/img/noise.png);
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
