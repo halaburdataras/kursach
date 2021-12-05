@@ -1,12 +1,17 @@
 .sidebar {
   position: absolute;
+  padding: 16px;
   top: 60px;
   left: -100em;
   z-index: 1;
-  height: 100vh;
+  height: calc(100vh - 90px);
   width: 500px;
   backdrop-filter: blur(5px);
   transition: left 0.7s ease-in-out;
+
+  &_menu {
+    list-style: none;
+  }
 }
 
 .sidebar.active {

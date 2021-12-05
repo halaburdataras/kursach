@@ -1,0 +1,10 @@
+.listItem {
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+
+  &:hover {
+    background: #cccccc26;
+  }
+}
