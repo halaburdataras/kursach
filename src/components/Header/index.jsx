@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import Sidebar from "../Sidebar";
 import Burger from "./Burger";
 
@@ -15,7 +16,9 @@ const Header = () => {
             isSidebarOpen={isSidebarOpen}
             setIsSidebarOpen={setIsSidebarOpen}
           />
-          <div className={s.header_logo}>ProstoSki</div>
+          <NavLink to="/" className={s.header_logo}>
+            ProstoSki
+          </NavLink>
         </div>
         <div className={s.header_element}>
           <div className={s.header_element_block}>

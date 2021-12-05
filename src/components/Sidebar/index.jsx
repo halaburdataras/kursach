@@ -10,7 +10,7 @@ const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {
   };
 
   const sidebarElements = titles.map((el, index) => (
-    <ListItem title={el} key={index} />
+    <ListItem title={el.title} link={el.link} key={index} />
   ));
 
   return (
