@@ -1,0 +1,38 @@
+.root {
+  height: 611px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 300px;
+
+  .image {
+    height: 250px;
+  }
+
+  .whiteThemeTitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 0.0025em;
+    color: #242424;
+  }
+
+  .whiteThemeButton {
+    cursor: pointer;
+    height: 52px;
+    width: 255px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 4px;
+    color: #fefefe;
+    background-color: #020202;
+    &:hover {
+      background-color: #3f3f3f;
+    }
+  }
+}

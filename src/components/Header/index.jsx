@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Cart from "../../Pages/Cart";
 import Sidebar from "../Sidebar";
 import Burger from "./Burger";
 
@@ -24,9 +25,9 @@ const Header = () => {
           <div className={s.header_element_block}>
             <p>UA</p>
           </div>
-          <div className={s.header_element_block}>
-            <i className="fas fa-user"></i>
-          </div>
+          <NavLink to="/cart" className={s.header_element_block}>
+            <i class="fas fa-shopping-cart"></i>
+          </NavLink>
         </div>
       </header>
       <Sidebar

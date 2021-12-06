@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin-top: 200px;
+
+  .orderWrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    @media (max-width: 813px) {
+      flex-direction: column;
+    }
+    .orderTable {
+      flex-grow: 1;
+      margin-right: 50px;
+      @media (max-width: 813px) {
+        margin-right: initial;
+      }
+    }
+  }
+  .whiteThemeButton {
+    cursor: pointer;
+    height: 52px;
+    width: 255px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: #fefefe;
+    background-color: #020202;
+    &:hover {
+      background-color: #3f3f3f;
+    }
+  }
+}

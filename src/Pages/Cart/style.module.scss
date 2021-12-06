@@ -1,0 +1,21 @@
+.cart {
+  height: 100vh;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &_wrappper {
+    max-width: 1440px;
+  }
+
+  &_header {
+    .exit {
+      cursor: pointer;
+    }
+  }
+
+  &_container {
+    margin-top: 16px;
+  }
+}

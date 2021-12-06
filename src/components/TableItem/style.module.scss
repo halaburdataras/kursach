@@ -1,12 +1,13 @@
 .tableRow {
   display: grid;
-  height: 52px;
-  width: 500px;
-  grid-template-columns: 150px repeat(5, 1fr);
+  height: 100px;
+  grid-template-columns: 300px repeat(5, 1fr);
 
   &_item {
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
+    font-weight: 600;
   }
 }
