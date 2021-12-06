@@ -12,8 +12,6 @@ const Cart = () => {
     cartItems: state.Cart.cart,
   }));
 
-  console.log(cartItems);
-
   useEffect(() => {
     dispatch(getCart());
   }, [dispatch]);
@@ -23,19 +21,6 @@ const Cart = () => {
       {cartItems.length ? <FilledCart items={cartItems} /> : <EmptyCart />}
     </div>
   );
-  // cartItems.length ? <FilledCart items={cartItems} /> :
-  //   return (
-  //     <div className={s.cart}>
-  //       <div className={s.cart_wrapper}>
-  //         <div className={s.cart_header}>
-  //           <NavLink to="/" className={s.exit}>
-  //             <i class="fas fa-times"></i>
-  //           </NavLink>
-  //         </div>
-  //         <div className={s.cart_container}></div>
-  //       </div>
-  //     </div>
-  //   );
 };
 
 export default Cart;

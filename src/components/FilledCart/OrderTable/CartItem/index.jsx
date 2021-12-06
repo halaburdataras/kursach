@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Select from "@material-ui/core/Select";
-import MenuItem from "@material-ui/core/MenuItem";
 import { TableCell, TableRow } from "@material-ui/core";
 import DeleteIcon from "@material-ui/icons/Delete";
 
@@ -19,7 +17,6 @@ const CartItem = ({ onRemoveItem, item }) => {
   const onChangeQuantity = (value) =>
     dispatch(setQuantity({ id: item.id, value: +value }));
   const onChangeDays = (value) => {
-    console.log(value);
     switch (value) {
       case 1:
         setBasePrice(item.price.price1);

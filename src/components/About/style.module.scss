@@ -1,0 +1,62 @@
+.root {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 300px);
+    grid-gap: 16px;
+
+    .item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid transparent;
+      transition: 0.2s all ease-in-out;
+      border-radius: 10px;
+      position: relative;
+
+      &:hover {
+        border-color: gray;
+
+        .fade {
+          opacity: 1;
+        }
+      }
+
+      img {
+        width: 200px;
+        border-radius: 10px;
+      }
+
+      .fade {
+        width: calc(100% - 32px);
+        height: calc(100% - 32px);
+        border-radius: 10px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        text-align: center;
+
+        transition: 0.3s all ease-in-out;
+
+        opacity: 0;
+
+        h4 {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
