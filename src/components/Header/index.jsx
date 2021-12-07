@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Cart from "../../Pages/Cart";
 import Sidebar from "../Sidebar";
 import Burger from "./Burger";
 

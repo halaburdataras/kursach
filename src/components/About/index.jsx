@@ -14,21 +14,30 @@ const About = () => {
               Dynamik. Довжина: від 70 до 170 см.
             </h4>
           </div>
-          <img src="https://res.cloudinary.com/didw9zkq6/image/upload/v1638831869/Ski/1_mfuv2z.jpg" />
+          <img
+            alt="ski"
+            src="https://res.cloudinary.com/didw9zkq6/image/upload/v1638831869/Ski/1_mfuv2z.jpg"
+          />
         </div>
         <div className={s.item}>
           <div className={s.fade}>
             <h3>ПРОКАТ СНОУБОРДІВ</h3>
             <h4>СНОУБОРДИ : Burton, K2, Head. Довжина від 125 до 170 см.</h4>
           </div>
-          <img src="https://res.cloudinary.com/didw9zkq6/image/upload/v1638831869/Ski/2_qsr1yl.jpg" />
+          <img
+            alt="snowboard"
+            src="https://res.cloudinary.com/didw9zkq6/image/upload/v1638831869/Ski/2_qsr1yl.jpg"
+          />
         </div>
         <div className={s.item}>
           <div className={s.fade}>
             <h3>ОРЕНДА АКСЕСУАРІВ</h3>
             <h4>ШОЛОМИ, МАСКИ, ПАЛКИ, ЧОХЛИ.</h4>
           </div>
-          <img src="https://res.cloudinary.com/didw9zkq6/image/upload/v1638831869/Ski/3_fezker.jpg" />
+          <img
+            alt="accesories"
+            src="https://res.cloudinary.com/didw9zkq6/image/upload/v1638831869/Ski/3_fezker.jpg"
+          />
         </div>
         <div className={s.item}>
           <div className={s.fade}>
@@ -38,7 +47,10 @@ const About = () => {
               чоловічий.
             </h4>
           </div>
-          <img src="https://res.cloudinary.com/didw9zkq6/image/upload/v1638831869/Ski/4_sghbxw.jpg" />
+          <img
+            alt="clothes"
+            src="https://res.cloudinary.com/didw9zkq6/image/upload/v1638831869/Ski/4_sghbxw.jpg"
+          />
         </div>
       </div>
     </div>

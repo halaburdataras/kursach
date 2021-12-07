@@ -12,6 +12,7 @@ const Contacts = () => {
         style={{ border: 0 }}
         allowfullscreen=""
         loading="lazy"
+        title="map"
       ></iframe>
       <div className={s.contacts_content}>
         <ul className={s.contacts_list}>

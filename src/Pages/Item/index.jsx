@@ -21,7 +21,7 @@ const Item = () => {
 
   useEffect(() => {
     dispatch(getStuffByCategory(category));
-  }, []);
+  }, [dispatch, category]);
 
   const cards = items.map((item) => (
     <Card item={item} handleAddToCart={handleAddToCart} />

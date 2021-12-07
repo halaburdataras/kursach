@@ -10,6 +10,7 @@ const EmptyCart = () => {
         <h2 className={s.whiteThemeTitle}>Ваш кошик пустий!</h2>
         <img
           className={s.image}
+          alt="empty cart"
           src="https://res.cloudinary.com/didw9zkq6/image/upload/v1638820527/Ski/pngfind.com-cart-png-2727925_cz4ds8.png"
         />
         <NavLink to="/catalog">

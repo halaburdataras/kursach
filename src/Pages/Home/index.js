@@ -8,6 +8,7 @@ const Home = () => {
     <div className={s.root}>
       <img
         className={s.mainImg}
+        alt="home"
         src="https://res.cloudinary.com/didw9zkq6/image/upload/v1638829869/Ski/lyzhi2_900_y2aolw.jpg"
       />
       <About />
