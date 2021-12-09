@@ -1,5 +1,6 @@
 import React from "react";
 import Category from "../../components/Category";
+import img from "../../assets/img/skis1.webp";
 
 import * as s from "./style.module.scss";
 
@@ -25,7 +26,7 @@ const Catalog = () => {
         <Category
           path="/catalog/other"
           title="Інше"
-          photo="http://prokat-lyzh.com.ua/images/prokat-snowboard.jpg"
+          photo={img}
           style={{ gridColumnStart: "2" }}
         />
       </div>
