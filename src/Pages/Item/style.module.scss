@@ -10,6 +10,7 @@
   row-gap: 16px;
 
   &_grid {
+    padding-top: 300px;
     display: grid;
     grid-template-columns: repeat(3, 400px);
     column-gap: 16px;
